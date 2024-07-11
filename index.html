@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>กรอกข้อมูล</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>กรอกข้อมูล</h1>
+        <form id="inputForm">
+            <label for="Dateofvisaapplication">Date of visa application ( วันที่ขอวีซ่า )</label>
+            <input type="text" id="Dateofvisaapplication" name="Dateofvisaapplication" required><br>
+            <label for="Transactionreferencenumber">Transaction reference number</label>
+            <input type="text" id="Transactionreferencenumber" name="Transactionreferencenumber" required><br>
+            <label for="ApplicationID">Application ID</label>
+            <input type="text" id="ApplicationID" name="ApplicationID" required><br>
+            <label for="Filenumber">File number ( หมายเลขไฟล์ )</label>
+            <input type="text" id="Filenumber" name="Filenumber" required><br>
+            <label for="Visafees">Visa application charge receipt number <br> [ หมายเลขค่าทำธรรมเนียม ]</label>
+            <input type="text" id="Visafees" name="Visafees" required><br>
+            <label for="Clientname">Clientname (ชื่อ-นามสกุล)</label>
+            <input type="text" id="Clientname" name="Clientname" required><br>
+            <label for="Dateofbirth">Date of birth ( วัน/เดือน/ปี )</label>
+            <input type="text" id="Dateofbirth" name="Dateofbirth" required><br>
+            <label for="ClientID">Client ID ( รหัส )</label>
+            <input type="text" id="ClientID" name="ClientID" required><br>
+            <label for="Visasubclassstream">Visa subclass stream</label>
+            <input type="text" id="Visasubclassstream" name="Visasubclassstream" required><br>
+            <label for="PositionNumber">Position Number ( หมายเลขตำแหน่ง )</label>
+            <input type="text" id="PositionNumber" name="PositionNumber" required><br>
+            <button type="button" onclick="openWindow(1)">แสดงเว็บใหม่ 1</button>
+            <button type="button" onclick="openWindow(2)">แสดงเว็บใหม่ 2</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
