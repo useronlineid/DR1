@@ -213,7 +213,6 @@ function openWindow(windowNumber) {
                 <p style="position: absolute; top: 469.5px; left: 278px; color:#000000; font-size: 12px; font-weight: normal;">${inputValues.Dateofbirth}</p>
                 <p style="position: absolute; top: 492.5px; left: 278px; color:#000000; font-size: 12px; font-weight: normal;">${inputValues.ClientID}</p>
                 <p style="position: absolute; top: 515px; left: 278px; color:#000000; font-size: 12px; font-weight: normal;">${inputValues.Visasubclassstream}</p>
-                <p style="position: absolute; top: 650px; left: 40px; color:#000000; font-size: 12px; font-weight: normal;">${inputValues.input10}</p>
             `;
             break;
         case 2:
